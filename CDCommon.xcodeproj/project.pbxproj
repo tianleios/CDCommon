@@ -16,7 +16,6 @@
 		2E8DCD3B1F5FDA4000C9B39F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8DCD391F5FDA4000C9B39F /* LaunchScreen.storyboard */; };
 		2E8DCD4A1F5FDD4F00C9B39F /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DCD491F5FDD4F00C9B39F /* ImageUtil.m */; };
 		2E8DCD4E1F5FDD8E00C9B39F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DCD4D1F5FDD8E00C9B39F /* UIView+Frame.m */; };
-		2E8DCD511F5FDDBB00C9B39F /* CDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DCD501F5FDDBB00C9B39F /* CDCommon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +33,6 @@
 		2E8DCD491F5FDD4F00C9B39F /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
 		2E8DCD4C1F5FDD8E00C9B39F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		2E8DCD4D1F5FDD8E00C9B39F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		2E8DCD4F1F5FDDBB00C9B39F /* CDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCommon.h; sourceTree = "<group>"; };
-		2E8DCD501F5FDDBB00C9B39F /* CDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCommon.m; sourceTree = "<group>"; };
 		40F54F88D9BA0419BE11AAF5 /* libPods-CDCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45740492282F8DEBF9B8994B /* Pods-CDCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDCommon/Pods-CDCommon.release.xcconfig"; sourceTree = "<group>"; };
 		A1DA341940AD07471A221F1A /* Pods-CDCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDCommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDCommon/Pods-CDCommon.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,8 +96,6 @@
 		2E8DCD421F5FDB6C00C9B39F /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				2E8DCD4F1F5FDDBB00C9B39F /* CDCommon.h */,
-				2E8DCD501F5FDDBB00C9B39F /* CDCommon.m */,
 				2E8DCD4B1F5FDD7000C9B39F /* Frame */,
 				2E8DCD471F5FDD4F00C9B39F /* ImageTool */,
 			);
@@ -270,7 +265,6 @@
 				2E8DCD2D1F5FDA4000C9B39F /* main.m in Sources */,
 				2E8DCD4E1F5FDD8E00C9B39F /* UIView+Frame.m in Sources */,
 				2E8DCD4A1F5FDD4F00C9B39F /* ImageUtil.m in Sources */,
-				2E8DCD511F5FDDBB00C9B39F /* CDCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
