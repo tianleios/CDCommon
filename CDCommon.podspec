@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
   s.name         = "CDCommon"
-  s.version       = "1.0.2"
+  s.version       = "1.0.3"
   s.license      = { :type => "BSD" }
   s.homepage     = "https://github.com/tianleios/CDCommon"
   s.authors      = { "tinaleios" => "tianleios@163.com" }

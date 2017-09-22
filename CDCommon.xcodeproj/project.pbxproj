@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		27430285B86EE5A4C04F3F3D /* libPods-CDCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F54F88D9BA0419BE11AAF5 /* libPods-CDCommon.a */; };
+		2E1E29741F750074006B4F84 /* UIScrollView+TLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E29721F75006D006B4F84 /* UIScrollView+TLAdd.m */; };
+		2E1E29771F750253006B4F84 /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E29751F750252006B4F84 /* DeviceUtil.m */; };
 		2E8DCD2D1F5FDA4000C9B39F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DCD2C1F5FDA4000C9B39F /* main.m */; };
 		2E8DCD301F5FDA4000C9B39F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DCD2F1F5FDA4000C9B39F /* AppDelegate.m */; };
 		2E8DCD331F5FDA4000C9B39F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DCD321F5FDA4000C9B39F /* ViewController.m */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E1E29721F75006D006B4F84 /* UIScrollView+TLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TLAdd.m"; sourceTree = "<group>"; };
+		2E1E29731F75006D006B4F84 /* UIScrollView+TLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TLAdd.h"; sourceTree = "<group>"; };
+		2E1E29751F750252006B4F84 /* DeviceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
+		2E1E29761F750253006B4F84 /* DeviceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
 		2E8DCD281F5FDA4000C9B39F /* CDCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8DCD2C1F5FDA4000C9B39F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E8DCD2E1F5FDA4000C9B39F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1E29711F750039006B4F84 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2E1E29731F75006D006B4F84 /* UIScrollView+TLAdd.h */,
+				2E1E29721F75006D006B4F84 /* UIScrollView+TLAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		2E8DCD1F1F5FDA4000C9B39F = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +116,9 @@
 			children = (
 				2E8DCD521F5FEA8800C9B39F /* CDCommon.h */,
 				2E8DCD531F5FEA8800C9B39F /* CDCommon.m */,
+				2E1E29761F750253006B4F84 /* DeviceUtil.h */,
+				2E1E29751F750252006B4F84 /* DeviceUtil.m */,
+				2E1E29711F750039006B4F84 /* Category */,
 				2E8DCD4B1F5FDD7000C9B39F /* Frame */,
 				2E8DCD471F5FDD4F00C9B39F /* ImageTool */,
 			);
@@ -266,9 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E8DCD331F5FDA4000C9B39F /* ViewController.m in Sources */,
+				2E1E29741F750074006B4F84 /* UIScrollView+TLAdd.m in Sources */,
 				2E8DCD301F5FDA4000C9B39F /* AppDelegate.m in Sources */,
 				2E8DCD2D1F5FDA4000C9B39F /* main.m in Sources */,
 				2E8DCD4E1F5FDD8E00C9B39F /* UIView+Frame.m in Sources */,
+				2E1E29771F750253006B4F84 /* DeviceUtil.m in Sources */,
 				2E8DCD4A1F5FDD4F00C9B39F /* ImageUtil.m in Sources */,
 				2E8DCD541F5FEA8800C9B39F /* CDCommon.m in Sources */,
 			);
